@@ -8,7 +8,7 @@ public class Program
     {
         // ffmpeg -i input.mp4 -vf "scale=1280:720" output.mp4
 
-        Console.Title = "VideoResolutionChanger | Made by https://github.com/GabryB03/";
+        Console.Title = "VideoResolutionChanger | Made by https://github.com/ZygoteCode/";
         string videoPath = "";
 
         while (!File.Exists(videoPath))
